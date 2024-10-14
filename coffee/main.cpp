@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     QString graphic_role = QString("helloworld");
     QGuiApplication app(argc, argv);
 
-    // QQuickStyle::setStyle("AGL");
+    QQuickStyle::setStyle("AGL");
 
     QQmlApplicationEngine engine;
     engine.addImportPath(":/imports");
