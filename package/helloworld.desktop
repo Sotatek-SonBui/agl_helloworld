@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Helloworld
+Comment=Helloworld
+GenericName=Helloworld
+Exec=helloworld
+Icon=helloworld
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=true
