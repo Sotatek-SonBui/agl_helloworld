@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    QString graphic_role = QString("music");
+    QString graphic_role = QString("helloworld");
     QGuiApplication app(argc, argv);
 
     QQuickStyle::setStyle("AGL");
