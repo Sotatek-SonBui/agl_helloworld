@@ -6,7 +6,10 @@
 
 int main(int argc, char *argv[])
 {
+    QString graphic_role = QString("music");
     QGuiApplication app(argc, argv);
+
+    QQuickStyle::setStyle("AGL");
 
     QQmlApplicationEngine engine;
     engine.addImportPath(":/imports");
